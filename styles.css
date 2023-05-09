@@ -64,6 +64,9 @@ li, a {
     gap: 36px;
     background-color: #F9FAF8;
 }
+.content {
+    flex-basis:0 ;
+}
 .information-header{
     font-size: 36px;
     color: #1F2937;
@@ -73,6 +76,10 @@ li, a {
 .information-images{
     display: flex;
     gap:36px;
+}
+.information-images p {
+    font-size: 18px;
+    font-weight: 700px;
 }
 .information-images img {
     border: 3px solid #3882F6;
